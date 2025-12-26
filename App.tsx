@@ -101,7 +101,6 @@ const App: React.FC = () => {
             Choose your language and let AI do the heavy lifting.
           </p>
         </header>
-
         {/* Input Card */}
         <div className="glass-morphism rounded-3xl shadow-xl overflow-hidden border border-white/50">
           <div className="p-6 sm:p-8 space-y-6">
