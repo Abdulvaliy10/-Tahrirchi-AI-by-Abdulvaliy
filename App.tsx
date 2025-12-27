@@ -104,25 +104,26 @@ const App: React.FC = () => {
         {/* Input Card */}
         <div className="glass-morphism rounded-3xl shadow-xl overflow-hidden border border-white/50">
           <div className="p-6 sm:p-8 space-y-6">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div className="flex items-center space-x-3 text-slate-700">
-                <Languages className="w-5 h-5 text-emerald-500" />
-                <span className="font-semibold">Select Language:</span>
-                <select 
-                  value={language}
-                  onChange={(e) => setLanguage(e.target.value as Language)}
-                  className="bg-white border-slate-200 text-slate-700 rounded-lg py-1.5 px-3 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-400 transition-all outline-none border"
-                >
-                  <option value="UZ">Uzbek</option>
-                  <option value="EN">English</option>
-                  <option value="RU">Russian</option>
-                  <option value="AR">Arabic</option>
-                  <option value="ES">Spanish</option>
-                  <option value="TR">Turkish</option>
-                  <option value="DE">German</option>
-                  <option value="ZH">Chinese</option>
-                </select>
-              </div>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4"><div className="flex items-center space-x-3 text-slate-700">
+  <Languages className="w-5 h-5 text-emerald-500" />
+  <span className="font-semibold">Select Language:</span>
+
+  <select 
+    value={language}
+    onChange={(e) => setLanguage(e.target.value as Language)}
+    className="bg-white border border-slate-200 text-slate-700 rounded-lg py-1.5 px-3 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-400 transition-all outline-none"
+  >
+    <option value="UZ">🇺🇿 Uzbek</option>
+    <option value="EN">🇬🇧 English</option>
+    <option value="RU">🇷🇺 Russian</option>
+    <option value="DE">🇩🇪 German</option>
+    <option value="TR">🇹🇷 Turkish</option>
+    <option value="ES">🇪🇸 Spanish</option>
+    <option value="AR">🇸🇦 Arabic</option>
+    <option value="ZH">🇨🇳 Chinese</option>
+  </select>
+</div>
+
               
               <button 
                 onClick={clearAll}
