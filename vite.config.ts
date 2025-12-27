@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 3000,
         host: '0.0.0.0',
-        allowedHosts: ['tahrirchi-ai-l5s0.onrender.com']  // << shu qatorni qo'shing
+        allowedHosts: ['tahrirchi-ai.onrender.com']  // << shu qatorni qo'shing
       },
       plugins: [react()],
       define: {
