@@ -113,9 +113,14 @@ const App: React.FC = () => {
                   onChange={(e) => setLanguage(e.target.value as Language)}
                   className="bg-white border-slate-200 text-slate-700 rounded-lg py-1.5 px-3 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-400 transition-all outline-none border"
                 >
-                  <option value="EN">English</option>
                   <option value="UZ">Uzbek</option>
+                  <option value="EN">English</option>
                   <option value="RU">Russian</option>
+                  <option value="AR">Arabic</option>
+                  <option value="ES">Spanish</option>
+                  <option value="TR">Turkish</option>
+                  <option value="DE">German</option>
+                  <option value="ZH">Chinese</option>
                 </select>
               </div>
               

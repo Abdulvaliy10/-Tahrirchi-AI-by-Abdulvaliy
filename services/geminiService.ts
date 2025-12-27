@@ -15,7 +15,12 @@ export class GeminiService {
     const langMap = {
       EN: 'English',
       UZ: 'Uzbek',
-      RU: 'Russian'
+      RU: 'Russian',
+      DE: 'German',
+      AR: 'Arabic',
+      TR: 'Turkish',
+      ZH: 'Chinese',
+      ES: 'Spanish'
     };
 
     const systemInstructions = {
